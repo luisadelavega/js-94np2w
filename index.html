@@ -1,0 +1,19 @@
+
+<div class='panel'>
+  <div style="padding-right: 20px">
+    <form>
+      <label>Choose an attribute:</label>
+      <select name="attributes" id="dropdown">
+        <option value="betweenness" selected="selected">betweenness</option>
+        <option value="eigenvector">eigenvector</option>
+        <option value="centrality">centrality</option>
+      </select>
+    </form>
+  </div>
+  <div>
+    <input id='slider' type="range" min="0" max="10" value="0" />
+    <label>Value: <span id="slider-value"></span></label>
+  </div>
+</div>
+<div id="app"></div>
+
